@@ -1,0 +1,52 @@
+
+
+.body {
+    background: url('../img/background1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #444 ;
+    opacity: 0.5;
+    }
+
+.day {
+    margin-top: 25vh;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-bottom: 0%;  
+ }
+
+.time {
+   margin-top: 1vh;
+   text-align: center;
+   font-size: 3rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: aliceblue;  
+}
+
+
+.greatings {
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 0.75rem;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background: rgba(68, 68, 68, 0.965);
+    margin-left: 70vh;
+    margin-right: 70vh;
+    
+}
