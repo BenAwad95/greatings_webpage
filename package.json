@@ -1,0 +1,18 @@
+{
+  "name": "greatings_webpage",
+  "version": "1.0.0",
+  "description": "Html page appear date and time",
+  "main": "index.js",
+  "homepage": "https://github.com/BenAwad95/greatings_webpage.git",
+  "scripts": {
+    
+    "deploy": "gh-pages -d templates"
+  },
+  "author": "Abdullah Awad",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "no": "0.0.1",
+    "node-sass": "^4.12.0"
+  }
+}
