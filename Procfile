@@ -1,1 +1,1 @@
-web: gunicorn app_greating:app
+web: gunicorn app_greatings:app
