@@ -1,8 +1,8 @@
 from flask import Flask,render_template
 from datetime import datetime,time
-import time
+import os
 
-
+os.environ['TZ'] = 'Saudi Arabia/Jeddah'
 
 #create the greatings func 
 
