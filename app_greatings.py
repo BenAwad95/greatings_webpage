@@ -1,8 +1,7 @@
 from flask import Flask,render_template
 from datetime import datetime,time
-import os
 
-os.environ['TZ'] = 'Asia/Riyadh'
+
 
 
 #create the greatings func 
@@ -10,9 +9,9 @@ os.environ['TZ'] = 'Asia/Riyadh'
 def greatins():
 	time_now = datetime.now()
 	if 0 <= time_now.hour and 12 > time_now.hour:
-		return 'GOOD MORNING'
+		return 'Good morning'
 	else:
-		return 'GOOD EVENING'
+		return 'Good evening'
 
 #create the time now in form h:m p/am
 
